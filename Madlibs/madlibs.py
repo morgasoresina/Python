@@ -64,6 +64,7 @@ def madlib3():
     madlib = f"Hoje eu fui até o(a) {lugar}, onde colhi um(a) {adjetivo} {alimento}. Meu objetivo era cozinhar um prato de {alimento}, mas fiquei com preguiça e resolvi {açao} com um {substantivo}."
     print(madlib)
 
+
 # gera os botões para abrir a opção selecionada
 Button(game, text='Jogo 1', font='arial 15',
        command=madlib1, bg='ghost white').place(x=250, y=180)
