@@ -2,4 +2,4 @@
 
 Mad Libs é um jogo de palavras de modelo de frase criado por Leonard Stern e Roger Price.
 
-É possível selecionar uma das opções (entre 3) em uma interface criada a partir do Tkinter, e o jogo é então executado no console.
+Implementado em Python 3.11.3 com a utilização do Tkinter para a criação da interface visual, onde é possível selecionar entre 3 opções para que o jogo inicie. O jogo é executado no console.
