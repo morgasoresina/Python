@@ -53,6 +53,8 @@ def madlib2():
 
 
 # terceiro madlib definido em uma função
+
+
 def madlib3():
     lugar = input("Insira um lugar: ")
     adjetivo = input("Insira um adjetivo: ")
