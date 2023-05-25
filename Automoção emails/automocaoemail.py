@@ -12,19 +12,19 @@ from email import encoders
 lojas = pd.read_excel(r'Lojas.xlsx')
 
 # Define a meta de faturamento anual
-# metaFaturamentoAnual = 1675082.50
+metaFaturamentoAnual = 1675082.50
 
 # Filtra as lojas que atingiram a meta anual de faturamento
-# lojasBateramMetaAno = lojas.loc[lojas['Faturamento Ano'] >= metaFaturamentoAnual]
+lojasBateramMetaAno = lojas.loc[lojas['Faturamento Ano'] >= metaFaturamentoAnual]
 
 # Ordena as lojas com base no faturamento anual em ordem decrescente
-# lojasBateramMetaAno = lojasBateramMetaAno.sort_values(by='Faturamento Ano', ascending=False)
-# display(lojasBateramMetaAno)
+lojasBateramMetaAno = lojasBateramMetaAno.sort_values(by='Faturamento Ano', ascending=False)
+display(lojasBateramMetaAno)
 
 # Calcula a porcentagem de lojas que atingiram a meta anual em relação ao total de lojas
-# porcBateuMetaAno = len(lojasBateramMetaAno) / len(lojas)
-# print(f'{porcBateuMetaAno * 100}% das lojas bateram a meta do ano.')
-# lojasBateramMetaAno.to_excel('Lojas que bateram a meta anual.xlsx')
+porcBateuMetaAno = len(lojasBateramMetaAno) / len(lojas)
+print(f'{porcBateuMetaAno * 100}% das lojas bateram a meta do ano.')
+lojasBateramMetaAno.to_excel('Lojas que bateram a meta anual.xlsx')
 
 # Define a meta de faturamento diário
 metaFaturamentoDia = 3500
