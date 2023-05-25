@@ -1,5 +1,3 @@
 # Python
 
-Projetos simples realizados na linguagem Python, visando o aprendizado e evolução na linguagem.
-
-Versão: Python 3.11.3
+Este repositório contém uma coleção de códigos em Python desenvolvidos para diversos propósitos. Aqui você encontrará uma variedade de projetos, exemplos e soluções que utilizam a linguagem Python em diferentes áreas, visando o aprendizado e evolução na linguagem.
